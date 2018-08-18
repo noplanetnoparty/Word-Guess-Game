@@ -144,6 +144,6 @@ function checkWin() {
         hasFinished = true;
     // } else {
     //     loss++;
-    //     hasFinished = true;
+    //     hasFinished = false;
     }
 }; 
