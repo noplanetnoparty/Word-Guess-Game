@@ -39,7 +39,6 @@ var remainingGuesses = 0;       // How many tries the player has left
 var gameStarted = false;        // Flag to tell if the game has started
 var hasFinished = false;        // Flag for 'press any key to try again'     
 var wins = 0;                   // How many wins has the player has had
-// var loss = 0;                   // How many losses the player has had
 
 // Reset our game-level variables
 function resetGame() {
@@ -59,8 +58,6 @@ function resetGame() {
     }
     // Hide game over and win images/text
     document.getElementById("pressKeyTryAgain").style.cssText= "display: none";
-    // document.getElementById("gameover-image").style.cssText = "display: none";
-    // document.getElementById("youwin-image").style.cssText = "display: none";
     
     // Show display
     updateDisplay();
@@ -70,7 +67,6 @@ function resetGame() {
 function updateDisplay() {
 
     document.getElementById("totalWins").innerText = wins;
-    // document.getElementById("totalLosses").innerText = loss;
     document.getElementById("currentWord").innerText = "";
     for (var i = 0; i < guessingWord.length; i++) {
         document.getElementById("currentWord").innerText += guessingWord[i];
@@ -142,8 +138,5 @@ function checkWin() {
         document.getElementById("pressKeyTryAgain").style.cssText= "display: block";
         wins++;
         hasFinished = true;
-    // } else {
-    //     loss++;
-    //     hasFinished = false;
     }
 }; 
