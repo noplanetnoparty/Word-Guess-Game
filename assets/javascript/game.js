@@ -7,6 +7,7 @@ var selectableWords = // Word list
         "flamingo",
         "parrot",
         "bobcat",
+
         "penguin",
         "seal",
         "dolphin",
@@ -28,7 +29,14 @@ var selectableWords = // Word list
         "chimpanzee",
         "orangutan",
         "mongoose",
+        "duck",
+        "clown fish",
+        "whale",
+        "octopus",
+        "emma",
+        "grace"
     ];
+
 
 const maxTries = 10;
 
