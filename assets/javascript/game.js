@@ -7,7 +7,7 @@ var selectableWords = // Word list
         "flamingo",
         "parrot",
         "bobcat",
-
+        "peacock",
         "penguin",
         "seal",
         "dolphin",
@@ -34,7 +34,10 @@ var selectableWords = // Word list
         "whale",
         "octopus",
         "emma",
-        "grace"
+        "grace",
+        "pete",
+        "rosey",
+        "tarantula"
     ];
 
 
