@@ -33,10 +33,6 @@ var selectableWords = // Word list
         "clown fish",
         "whale",
         "octopus",
-        "emma",
-        "grace",
-        "pete",
-        "rosey",
         "tarantula"
     ];
 
